@@ -22,7 +22,7 @@ http://172.16.88.17/api/chromecastStatus/sendinfo.php?hostname=Chromecast&active
 http://172.16.88.17/api/chromecastStatus/sendinfo.php?type=reload_data&hotelcode=SPSF
 
 #To send chromecast eureka_info to API DB:<br />
-http://172.16.88.17/api/chromecastStatus/sendinfo.php\?eureka_info=$deviceDataOnlyEscaped&activeMAC=$leaseActMAC&type=devicedata&format=json" <br/>
+http://172.16.88.17/api/chromecastStatus/sendinfo.php?eureka_info=$deviceDataOnlyEscaped&activeMAC=$leaseActMAC&type=devicedata&format=json" <br/>
 where {$deviceDataOnlyEscaped} is url encoded eureka_info and {$leaseActMAC} is MK mac id variable<br/>
 
 For future case(s), few parameter(s) have been added to handle different data request(s) for the sendinfo.php api file. For example:- <br/>
