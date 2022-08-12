@@ -25,8 +25,7 @@ http://172.16.88.17/api/chromecastStatus/sendinfo.php?type=reload_data&hotelcode
 http://172.16.88.17/api/chromecastStatus/sendinfo.php?eureka_info=$deviceDataOnlyEscaped&activeMAC=$leaseActMAC&type=devicedata&format=json" <br/>
 where {$deviceDataOnlyEscaped} is url encoded eureka_info and {$leaseActMAC} is MK mac id variable<br/>
 
-For future case(s), few parameter(s) have been added to handle different data request(s) for the sendinfo.php api file. For example:- <br/>
-"type" like ipbound, devicedata, reload_data ... etc <br/>
-"format" <br/>
-... etc <br/>
+For future developments, few extra parameter(s) have been added to handle different data request(s) for the sendinfo.php api file. For example:- <br/>
+"type" is for action like ipbound, devicedata, reload_data ... etc <br/>
+"format" is for data type like json, xml ... etc<br/>
 
